@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /WEB2041_DAM/DAM/
+RewriteRule ^index\.php＄ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /WEB2041_DAM/DAM/index.php [L]

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan li thu vien LTL Lib</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 p-0 bg-primary collapse collapse-horizontal show" style="min-height:100vh" id="openMenu">
+                <strong class="text-center p-3 d-block text-white">TRANG QUẢN LÍ</strong>
+                <div class="list-group list-group-item-primary m-3">
+                    <a href="#" class="list-group-item list-group-item-action " aria-current="true">
+                      Tổng quan
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action active">Tài khoản</a>
+                    <a href="#" class="list-group-item list-group-item-action">Chủ đề</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sách</a>
+                    <a href="#" class="list-group-item list-group-item-action " aria-disabled="true">Mượn trả</a>
+                </div>
+            </div>
+            <div class="col-md p-0">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="btn btn-outline me-2" type="button" data-bs-toggle="collapse" data-bs-target="#openMenu" aria-expanded="false" aria-controls="collapseWidthExample">
+                           =
+                          </button>
+                      <a class="navbar-brand" href="#">LTL Lib</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Xin chào, bạn
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Xem trang chu</a></li>
+                              <li><a class="dropdown-item" href="#">đăng xuất</a></li>
+                            </ul>
+                          </li>
+                          
+                        </ul>
+                        
+                      </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <h2 class="my-3">Them tai khoan</h2>
+                    <form>
+                      <div class="mb-3">
+                        <label for="SoDienThoai" class="form-label">So Dien Thoai</label>
+                        <input type="text" class="form-control" id="SoDienThoai">
+                      </div>
+                      <div class="mb-3">
+                        <label for="MatKhau" class="form-label">Mat Khau</label>
+                        <input type="password" class="form-control" id="SoDienThoai" >
+                      </div>
+                      <div class="mb-3">
+                        <label for="HoTen" class="form-label"> Ho Ten</label>
+                        <input type="text" class="form-control" id="HoTen">
+                      </div>
+                      <div class="mb-3">
+                        <label for="Quyen" class="form-label"> Quyen</label>
+                        <select class="form-select">
+                          <option value="0">Ban doc</option>
+                          <option value="1">Quan li</option>
+                        </select>
+                      </div>
+                        <button type="submit" class="btn btn-primary">Xac nhan</button>
+                    </form>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
