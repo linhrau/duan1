@@ -23,7 +23,7 @@
                 //lay du lieu
                 include_once "model/m_user.php";
                 $dsTk=user_getAll();
-                //hien thi du lieu
+                //hien thi du lieu abc
                 $view_name = 'admin_user';
                 break;
            
